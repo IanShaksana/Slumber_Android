@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical">
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:alignContent="stretch"
+        app:flexDirection="column">
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:flexDirection="row"
+            app:layout_flexBasisPercent="10%">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/cross"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="40dp"
+                    android:scaleType="center"
+                    app:srcCompat="@drawable/ic_back" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    style="@style/EmailPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:src="@drawable/logo_slumber"
+                    android:text="Support"
+                    android:textAlignment="center"
+                    android:textColor="#fafbbd"
+                    android:textSize="20dp" />
+
+
+            </RelativeLayout>
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:flexDirection="column"
+            app:justifyContent="center"
+            app:layout_flexBasisPercent="90%">
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_flexBasisPercent="80%">
+
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="40dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/EmailPassword"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Type Your Message"
+                            android:textSize="15dp"
+                            android:layout_marginVertical="5dp"/>
+
+                        <EditText
+                            android:padding="10dp"
+                            android:id="@+id/edtInput"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/login_input_box"
+                            android:inputType="textCapSentences|textMultiLine"
+                            android:maxLength="2000"
+                            android:maxLines="4" />
+
+                        <TextView
+                            style="@style/navdrawer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="You can ask or share anything about insomnia problems here, besides that you can also ask about problems or difficulties when you run this application. If you have criticisms and suggestions for this application, you can also write them through this inbox."
+                            android:textSize="10dp"
+                            android:layout_marginVertical="5dp"/>
+
+                        <TextView
+                            style="@style/navdrawer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Thank you for your support and keep #RespectYourBody."
+                            android:textSize="10dp" />
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+
+            </RelativeLayout>
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:flexDirection="column">
+                <Button
+                    android:id="@+id/done"
+                    style="@style/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/login_sign_in_button"
+                    android:text="Send Your Message"
+                    android:textAllCaps="false"
+                    android:textColor="#101930"
+                    app:layout_alignSelf="stretch"/>
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+
+</LinearLayout>

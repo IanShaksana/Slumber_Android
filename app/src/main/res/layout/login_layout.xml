@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical">
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:alignContent="stretch"
+        app:flexDirection="column">
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:flexDirection="row"
+            app:layout_flexBasisPercent="10%">
+
+
+            <ImageView
+                android:id="@+id/logo_vis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_flexBasisPercent="50%"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="30dp"
+                app:srcCompat="@drawable/logo_slumber" />
+        </com.google.android.flexbox.FlexboxLayout>
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:flexDirection="column"
+            app:justifyContent="center"
+            app:layout_flexBasisPercent="50%">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                style="@style/EmailPassword"
+                android:text="Email"
+                android:textColor="#fafbbd"
+                android:textSize="15dp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/login_input_box"
+                app:endIconDrawable="@drawable/ic_login_username"
+                app:endIconMode="custom"
+                app:endIconTint="#fafbbd">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/userInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:inputType="text"
+                    android:textColor="#fafbbd"
+                    android:textColorHint="#fafbbd"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                style="@style/EmailPassword"
+                android:text="Password"
+                android:textColor="#fafbbd"
+                android:textSize="15dp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="15dp"
+
+                android:background="@drawable/login_input_box"
+                app:passwordToggleDrawable="@drawable/ic_login_password"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="#fafbbd">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/passInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:inputType="textPassword"
+                    android:textColor="#fafbbd"
+                    android:textColorHint="#fafbbd"
+
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                app:flexDirection="row">
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:flexDirection="column">
+
+                    <TextView
+                        android:id="@+id/signUp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignParentBottom="true"
+                        android:text="Sign Up"
+                        style="@style/SignupForget"
+                        android:textAllCaps="false"
+                        android:textColor="#fafbbd" />
+
+                    <TextView
+                        android:id="@+id/forgetPass"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignParentBottom="true"
+                        android:text="Forget Password"
+                        style="@style/SignupForget"
+                        android:textAllCaps="false"
+                        android:textColor="#fafbbd" />
+
+                </com.google.android.flexbox.FlexboxLayout>
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:alignItems="flex_end"
+                    app:flexDirection="column">
+
+                    <Button
+                        android:id="@+id/signIn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/login_sign_in_button"
+                        android:text="Sign In"
+                        style="@style/button"
+                        android:textAllCaps="false"
+                        android:textColor="#101930" />
+
+                </com.google.android.flexbox.FlexboxLayout>
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:alignItems="flex_end"
+            app:flexDirection="row"
+            app:justifyContent="center"
+            app:layout_flexBasisPercent="35%">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="App Version : 1.00"
+                android:textAlignment="center"
+                android:textColor="#fafbbd"
+                android:textSize="15dp" />
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+
+</LinearLayout>

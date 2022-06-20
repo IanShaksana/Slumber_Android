@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp">
+
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg3"
+        app:flexDirection="column"
+        app:alignItems="center"
+        android:padding="15dp">
+
+        <Button
+            android:id="@+id/alarm1"
+            android:text="Sleep Time = 21:00&#10;Wake Time = 05:00"
+            android:background="@drawable/login_sign_in_button"
+            android:padding="5dp"
+            style="@style/button"
+            android:textAllCaps="false"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            app:layout_flexBasisPercent="50%"
+            android:layout_margin="15dp"/>
+
+        <Button
+            android:id="@+id/alarm2"
+            android:text="Sleep Time = 22:00&#10; Wake Time = 06:00"
+            android:background="@drawable/login_sign_in_button"
+            android:padding="5dp"
+            style="@style/button"
+            android:textAllCaps="false"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            app:layout_flexBasisPercent="50%"
+            android:layout_margin="15dp"/>
+
+        <Button
+            android:id="@+id/alarm3"
+            android:text="Sleep Time = 23:00&#10;Wake Time = 07:00"
+            android:background="@drawable/login_sign_in_button"
+            android:padding="5dp"
+            style="@style/button"
+            android:textAllCaps="false"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            app:layout_flexBasisPercent="50%"
+            android:layout_margin="15dp"/>
+
+
+
+
+
+
+
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+
+
+</RelativeLayout>

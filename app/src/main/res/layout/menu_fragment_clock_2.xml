@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/ic_left_arrow"
+        android:layout_centerVertical="true"
+        app:backgroundTint="#00ffffff"
+        />
+
+    <TextView
+        android:id="@+id/wake_time_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wake Time"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/wake_time"
+        android:textColor="#fafbbd"/>
+
+    <TextView
+        android:id="@+id/wake_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:layout_centerInParent="true"
+        android:textColor="#fafbbd"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/ic_right_arrow"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        app:backgroundTint="#00ffffff"
+        app:iconGravity="end"/>
+
+</RelativeLayout>

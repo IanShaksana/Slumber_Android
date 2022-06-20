@@ -1,0 +1,224 @@
+<resources>
+
+    <string name="ip_address_local">http://192.168.43.138:8083/api/</string>
+    <string name="ip_address_do">http://128.199.102.132:8083/api/</string>
+    <!--
+    <string name="ip_address_do">http://192.168.1.10:8083/api/</string>
+    <string name="ip_address_do">http://206.189.32.21:8083/api/</string>
+    -->
+    <string name="login_api">user/login</string>
+    <string name="logout_api">user/logout</string>
+    <string name="register_api">user/register</string>
+    <string name="profile_api">user/profile</string>
+    <string name="edit_profile_api">user/edit_profile</string>
+    <string name="change_pass">user/change_pass</string>
+    <string name="message">user/message</string>
+
+    <string name="get_daily_api">task/get/daily</string>
+    <string name="finish_task">task/finish</string>
+    <string name="claim_reward">task/claim</string>
+
+
+    <string name="report_wake">report/wake</string>
+    <string name="report_sleep">report/sleep</string>
+    <string name="report_get">report/get</string>
+
+
+    <string name="shop_buy">shop/buy/item</string>
+
+
+    <string name="app_name">Slumber</string>
+    <string name="title_activity_nav_drawer">nav_drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="title_1">Pengertian Insomnia</string>
+    <string name="title_2">Faktor Risiko Insomnia</string>
+    <string name="title_3">Penyebab Insomnia</string>
+    <string name="title_4">Gejala Insomnia</string>
+    <string name="title_5">Komplikasi Insomnia</string>
+    <string name="title_6">Pengobatan Insomnia</string>
+    <string name="title_7">Pencegahan Insomnia</string>
+    <string name="title_8">Kapan Harus Ke Dokter</string>
+    <string name="title_9">Jenis-jenis Insomnia</string>
+    <string name="title_10">Waktu Tidur Ideal Berdasarkan Usia</string>
+    <string name="title_11">Waktu Tidur Ideal ialah Pukul 22:00 – 06:00</string>
+    <string name="title_12">Jangan Tidur Lewat Jam 12 Malam!</string>
+    <string name="title_13">Tidur 7 – 8 Jam untuk Hindari Risiko Kesehatan</string>
+
+    <string name="article_1">
+        <![CDATA[
+    <p><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Apa sih insomnia itu? Jadi, insomnia merupakan kondisi dimana kamu mengalami kesulitan tidur. Gangguan tidur ini membuatmu tak memiliki waktu tidur yang dibutuhkan oleh tubuhmu. Hal tersebut menyebabkan kondisi fisikmu menjadi tidak cukup fit untuk melakukan aktivitas keesokan harinya.</span></p>
+]]>
+    </string>
+
+    <string name="article_2">
+        <![CDATA[
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:8pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Ada beberapa faktor nih yang bisa meningkatkan risikomu untuk mengalami insomnia, seperti:</span></p>
+<ul style="margin-top:0;margin-bottom:0;padding-inline-start:48px;">
+    <li dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Masalah mental</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">, seperti depresi, gangguan kecemasan, hingga gangguan stres pasca trauma;</span></p>
+    </li>
+    <li dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Bekerja shift</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">, pekerjaan seperti ini bisa mengubah jam biologis tubuhmu;</span></p>
+    </li>
+    <li dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Jenis kelamin</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">, ketika menstruasi tubuhmu akan mengalami perubahan hormon, kondisi ini menimbulkan gejala&nbsp;</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">hot flasher</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp;atau keringat di malam hari, sehingga menyebabkan gangguan tidur;</span></p>
+    </li>
+    <li dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Usia</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">, insomnia meningkat seiring dengan bertambahnya usia;</span></p>
+    </li>
+    <li dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:8pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Perjalanan jauh</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">, melakukan perjalanan jauh atau&nbsp;</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">jet lag</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp;karena melintasi beberapa zona waktu juga bisa memicu insomnia lho.</span></p>
+    </li>
+</ul>
+
+<p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:8pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Ada beberapa faktor nih yang bisa meningkatkan risikomu untuk mengalami insomnia, seperti:</span></p>
+<ul style="margin-top:0;margin-bottom:0;padding-inline-start:48px;">
+    <li dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Masalah mental</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">, seperti depresi, gangguan kecemasan, hingga gangguan stres pasca trauma;</span></p>
+    </li>
+    <li dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Bekerja shift</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">, pekerjaan seperti ini bisa mengubah jam biologis tubuhmu;</span></p>
+    </li>
+    <li dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Jenis kelamin</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">, ketika menstruasi tubuhmu akan mengalami perubahan hormon, kondisi ini menimbulkan gejala&nbsp;</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">hot flasher</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp;atau keringat di malam hari, sehingga menyebabkan gangguan tidur;</span></p>
+    </li>
+    <li dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Usia</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">, insomnia meningkat seiring dengan bertambahnya usia;</span></p>
+    </li>
+    <li dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:8pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Perjalanan jauh</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">, melakukan perjalanan jauh atau&nbsp;</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">jet lag</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp;karena melintasi beberapa zona waktu juga bisa memicu insomnia lho.</span></p>
+    </li>
+</ul>
+]]>
+    </string>
+
+    <string name="article_3">
+        <![CDATA[
+            <p><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Ada beberapa nih faktor penyebab insomnia yang pada akhirnya akan berujung kepada kondisi sulit tidur pada jangka waktu yang cukup lama. Mulai dari akibat gaya hidup dan masalah kenyamanan ruangan kamar, hingga akibat gangguan psikologi, masalah kesehatan fisik, dan efek samping obat-obatan.</span></p>
+        ]]>
+    </string>
+
+    <string name="article_4">
+        <![CDATA[
+            <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:8pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Kamu yang mengalami insomnia pasti akan sangat sulit untuk merasakan ngantuk, sehingga kamu susah untuk menentukan ukuran tidur normal karena kebutuhan tidur setiap orang berbeda-beda. Hal tersebut dipengaruhi oleh usia, gaya hidup, lingkungan, dan pola makan. Gejala-gejala insomnia yang paling umum seperti:</span></p>
+<ul style="margin-top:0;margin-bottom:0;padding-inline-start:48px;">
+    <li dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Sulit merasakan ngantuk dan tidak bisa tertidur;</span></p>
+    </li>
+    <li dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Terbangun pada malam hari atau dini hari dan tidak bisa tidur kembali;</span></p>
+    </li>
+    <li dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Merasa lelah, emosional, sulit berkonsentrasi, dan tidak bisa melakukan aktivitas secara baik pada siang hari;</span></p>
+    </li>
+    <li dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:8pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Tidak bisa tidur siang meskipun tubuh terasa lelah.</span></p>
+    </li>
+</ul>
+        ]]>
+    </string>
+
+    <string name="article_5">
+        <![CDATA[
+            <p><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Tidur memiliki banyak keistimewaan bagi tubuh lho, mulai dari kesehatan fisik hingga psikismu. Tau nggak sih? Insomnia yang dibiarkan tanpa penanganan dan berlangsung lama, bisa menimbulkan berbagai masalah lainnya. Mulai dari menurunkan produktivitas dan konsentrasi, gangguan kesehatan mental, hingga memperburuk penyakit kronis seperti tekanan darah tinggi dan penyakit jantung.</span></p>
+        ]]>
+    </string>
+
+    <string name="article_6">
+        <![CDATA[
+<p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:8pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Jika kamu bertanya kepada dokter dalam mengobati insomnia, hal pertama yang dilakukan oleh dokter adalah mencari tau apa yang menjadi penyebab. Jika kamu insomnia didasari oleh kebiasaan atau pola hidup tertentu yang tidak sehat, pasti dokter akan menyarankan untuk memperbaikinya. Jika insomnia disebabkan oleh gangguan kesehatan (misalnya gangguan kecemasan), maka dokter akan terlebih dahulu mengatasi kondisi yang mendasari rasa cemas itu.</span></p>
+<p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:8pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Dalam beberapa kasus insomnia, dokter akan menyarankanmu agar menjalani terapi perilaku kognitif. Terapi ini bisa membantumu untuk mengubah perilaku dan pola pikir yang memengaruhi pola tidurmu.</span></p>
+<p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:8pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Andaikan dianggap perlu, tak menutup kemungkinan dokter akan meresepkan obat tidur untuk beberapa waktu. Namun, penggunaan obat tidur ini merupakan solusi yang bersifat sementara saja. Hal yang perlu digarisbawahi, penanganan insomnia jarang berhasil bila tak mencari solusi dari akar penyebabnya.</span></p>
+        ]]>
+    </string>
+    <string name="article_7">
+        <![CDATA[
+<p><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Periksakan dirimu ke dokter jika kesulitan untuk tidur atau sulit mempertahankan tidur, terlebih lagi jika hal tersebut berdampak kepada kehidupan sehari-hari. Kelelahan karena insomnia dapat memengaruhi suasana hatimu lho dan bahkan bisa menciptakan masalah di dalam hubungan dengan orang-orang terdekat dan rekan kerja.</span></p>
+        ]]>
+    </string>
+    <string name="article_8">
+        <![CDATA[
+<p><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Bila gejala insomnia semakin mengganggu aktivitasmu di pagi dan siang hari, segeralah temui dokter. Tujuannya untuk mendapatkan penanganan dan saran yang tepat.</span></p>
+        ]]>
+    </string>
+    <string name="article_9">
+        <![CDATA[
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:8pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Insomnia dalam&nbsp;</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">National Institutes of Health</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp;dapat dibagi menjadi&nbsp;</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">transient</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp;(sementara),&nbsp;</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">intermittent</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp;(kadang-kadang) dan&nbsp;</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">kronis</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp;(konstan). Namun secara umum insomnia dibagi menjadi dua jenis, yaitu:</span></p>
+<ol style="margin-top:0;margin-bottom:0;padding-inline-start:48px;">
+    <li aria-level="1" dir="ltr" style="list-style-type:decimal;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Insomnia Primer</span></p>
+    </li>
+</ol>
+<p dir="ltr" style="line-height:1.7999999999999998;margin-left: 36pt;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Merupakan gangguan sulit tidur yang penyebabnya belum diketahui secara pasti dan biasanya berlangsung lama atau kronis (</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">long term insomnia</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">). Insomnia primer sering menyebabkan terjadinya komplikasi kecemasan dan depresi, yang justru dapat menyebabkan insomnia semakin parah.</span></p>
+<ol start="2" style="margin-top:0;margin-bottom:0;padding-inline-start:48px;">
+    <li aria-level="1" dir="ltr" style="list-style-type:decimal;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Insomnia Sekunder</span></p>
+    </li>
+</ol>
+<p><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Merupakan gangguan sulit tidur yang penyebabnya dapat diketahui secara pasti. Penyebabnya dapat berupa faktor gangguan sakit fisik dan gangguan psikis. Insomnia sekunder dibedakan menjadi dua, yaitu insomnia sementara (</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">transient insomnia</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">) dan insomnia jangka pendek (</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">short term insomnia</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">). Insomnia sementara (</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">transient insomnia</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">) terjadi pada seseorang yang dapat tidur normal, namun karena adanya stres atau ketegangan sementara menjadi sulit tidur. Sedangkan insomnia jangka pendek (</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">short term insomnia</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">) merupakan gangguan sulit tidur yang terjadi pada para penderita sakit fisik atau mendapat stres situasional.</span></p>
+        ]]>
+    </string>
+    <string name="article_10">
+        <![CDATA[
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:8pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Kebutuhan waktu tidur ternyata berbeda-beda setiap usia lho. Semakin bertambahnya usiamu, kebutuhan waktu tidur menjadi berkurang. Berikut ini adalah waktu tidur ideal yang disarankan berdasarkan usia:</span></p>
+<ul style="margin-top:0;margin-bottom:0;padding-inline-start:48px;">
+    <li aria-level="1" dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Bayi usia 0&ndash;3 bulan: 14&ndash;17 jam per hari</span></p>
+    </li>
+    <li aria-level="1" dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Bayi usia 4&ndash;11 bulan: 12&ndash;15 jam per hari</span></p>
+    </li>
+    <li aria-level="1" dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Bayi usia 1&ndash;2 tahun: 11&ndash;14 jam per hari</span></p>
+    </li>
+    <li aria-level="1" dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Anak prasekolah usia 3&ndash;5 tahun: 10&ndash;13 jam per hari</span></p>
+    </li>
+    <li aria-level="1" dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Anak usia sekolah usia 6&ndash;13 tahun: 9&ndash;11 jam per hari</span></p>
+    </li>
+    <li aria-level="1" dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Remaja usia 14&ndash;17 tahun: 8&ndash;10 jam per hari</span></p>
+    </li>
+    <li aria-level="1" dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Dewasa muda usia 18&ndash;25 tahun: 7&ndash;9 jam per hari</span></p>
+    </li>
+    <li aria-level="1" dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Dewasa usia 26&ndash;64 tahun: 7&ndash;9 jam per hari</span></p>
+    </li>
+    <li aria-level="1" dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;">
+        <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:8pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Lansia usia dia atas 65 tahun: 7&ndash;8 jam per hari</span></p>
+    </li>
+</ul>
+
+        ]]>
+    </string>
+    <string name="article_11">
+        <![CDATA[
+<p><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Waktu tidur ideal manusia dimulai dari pukul 10 malam, dan bangun pada pukul 6 pagi. Namun, beberapa ahli bahkan menyarankan untuk memulai tidur pada pukul 8 malam. Jika waktu tidurmu berkisar antara pukul 8 malam sampai dengan 12 malam, kamu akan mendapatkan tidur yang nyenyak dan mimpi indah. Istirahat yang cukup di malam hari juga membuatmu nggak akan merasa butuh tidur siang setelahnya.</span></p>
+        ]]>
+    </string>
+    <string name="article_12">
+        <![CDATA[
+<p><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Jika senang begadang, alias tidur lewat di atas jam 12 malam, kebiasaan ini akan memberikan dampak buruk pada kesehatan. Bangun lebih sore dari biasanya akan meningkatkan risiko perilaku bulimia, depresi, dan&nbsp;</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">seasonal affective disorder</span><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp;(SAD). Salah satu penelitian pada pekerja di Jepang menemukan, tidur terlalu larut memiliki kaitan signifikan dengan prevalensi yang tinggi pada gejala depresi.</span></p>
+        ]]>
+    </string>
+    <string name="article_13">
+        <![CDATA[
+<p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:8pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Orang dewasa pada umumnya membutuhkan 8 jam lamanya untuk tidur. Namun, angka ini bervariasi untuk masing-masing orang. Sebagian dapat merasa cukup dengan tidur selama 6-7 jam, sementara yang lainnya butuh 8 jam. Pada kategori usia anak-anak dan lanjut usia pun berbeda.</span></p>
+<p><br></p>
+<p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:8pt;"><span style="font-size:12pt;font-family:Montserrat,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Yuk, mulai buat jadwal tidur dan menjalaninya secara teratur. Istirahat yang ideal, membuat kamu lebih semangat menjalani rutinitasmu!</span></p>
+        ]]>
+    </string>
+
+</resources>

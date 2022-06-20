@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical">
+
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:flexDirection="column">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_flexBasisPercent="45%">
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/slider"
+                app:iss_auto_cycle="true"
+                app:iss_delay="1000"
+                app:iss_period="3000"
+                app:iss_corner_radius="50"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/drawer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_nav_drawer"
+                    android:layout_margin="30dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_night"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="30dp"/>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_centerInParent="true"
+                    android:layout_above="@id/center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/nav_header_desc"
+                    app:srcCompat="@mipmap/ic_male" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:id="@+id/center"
+                    android:layout_centerInParent="true"/>
+
+                <LinearLayout
+                    android:id="@+id/lin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/center"
+                    android:orientation="horizontal"
+                    android:layout_centerInParent="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/center"
+                        android:text="Hi, "
+                        android:textSize="25dp"
+                        style="@style/SignupForget"/>
+
+                    <TextView
+                        android:id="@+id/yourUsername2"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/center"
+                        android:text="Your Username"
+                        android:textSize="25dp"
+                        style="@style/EmailPassword"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/ageHometown2"
+                    android:layout_centerInParent="true"
+                    android:layout_below="@+id/lin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your Age, Your Hometown"
+                    style="@style/SignupForget"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_flexBasisPercent="20%">
+
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:flexDirection="row"
+                app:alignItems="center">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/clock"
+                    app:icon="@drawable/ic_menu_clock"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/ic_glow"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:iconTint="#fafbbd"
+                    app:backgroundTint="#0c072c"
+                    app:layout_flexBasisPercent="20%"
+                    />
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/music"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/ic_glow"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:icon="@drawable/ic_menu_music"
+                    app:iconTint="#fafbbd"
+                    app:backgroundTint="#0c072c"
+                    app:layout_flexBasisPercent="20%"
+                    />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/report"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/ic_glow"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:icon="@drawable/ic_menu_report"
+                    app:iconTint="#fafbbd"
+                    app:backgroundTint="#0c072c"
+                    app:layout_flexBasisPercent="20%"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/article"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/ic_glow"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:icon="@drawable/ic_menu_article"
+                    app:iconTint="#fafbbd"
+                    app:backgroundTint="#0c072c"
+                    app:layout_flexBasisPercent="20%"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/achievement"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/ic_glow"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:icon="@drawable/ic_menu_achievement"
+                    app:iconTint="#fafbbd"
+                    app:backgroundTint="#0c072c"
+                    app:layout_flexBasisPercent="20%"/>
+
+
+
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+        <FrameLayout
+            android:layout_margin="20dp"
+            android:id="@+id/main_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_main_sliding"
+            app:layout_flexBasisPercent="35%"/>
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_drawer_profile"
+            android:title="Profile"/>
+        <item
+            android:id="@+id/nav_store"
+            android:icon="@drawable/ic_drawer_store"
+            android:title="Store"
+            android:iconTint="#fafbbd" />
+
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_drawer_setting"
+            android:title="Settings"
+            android:iconTint="#fafbbd"
+            />
+
+        <item
+            android:id="@+id/nav_tutorial"
+            android:icon="@drawable/ic_drawer_tutorial"
+            android:title="Tutorial &amp; Help"
+
+            android:iconTint="#fafbbd"/>
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/ic_drawer_support"
+            android:title="Support"
+            android:iconTint="#fafbbd" />
+
+    </group>
+</menu>

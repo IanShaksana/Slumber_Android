@@ -1,0 +1,64 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyActionBar.MenuTextStyle" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textAppearance">@style/navdrawer</item>
+    </style>
+
+    <style name="splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+    <style name="EmailPassword">
+        <item name="fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textColor">#fafbbd</item>
+    </style>
+
+    <style name="wakesleep">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textColor">#fafbbd</item>
+    </style>
+
+    <style name="button">
+        <item name="fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textColor">#101930</item>
+    </style>
+
+    <style name="SignupForget">
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColor">#fafbbd</item>
+    </style>
+
+    <style name="navdrawer">
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:textColor">#fafbbd</item>
+    </style>
+
+    <style name="point">
+        <item name="fontFamily">@font/montserrat_bolditalic</item>
+        <item name="android:textColor">#fafbbd</item>
+    </style>
+
+    <style name="desc">
+        <item name="fontFamily">@font/montserrat_italic</item>
+        <item name="android:textColor">#fafbbd</item>
+    </style>
+
+
+    <style name="MyProgressBar" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressBackgroundTint">#69f0ae</item>
+        <item name="android:progressTint">#b71c1c</item>
+        <item name="android:minHeight">10dip</item>
+        <item name="android:maxHeight">20dip</item>
+    </style>
+
+
+
+
+</resources>

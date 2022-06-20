@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/EmailPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Achievement"
+        android:textSize="20sp" />
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:flexDirection="column">
+
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:flexDirection="row">
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                app:backgroundTint="#00ffffff"
+                app:icon="@drawable/ic_left_arrow"
+                app:layout_flexBasisPercent="10%" />
+
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                app:flexDirection="column"
+                app:layout_flexBasisPercent="80%">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.flexbox.FlexboxLayout
+                        android:layout_above="@id/separator"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:flexDirection="row">
+                        <TextView
+                            android:id="@+id/title"
+                            android:singleLine="true"
+                            android:ellipsize="marquee"
+                            android:marqueeRepeatLimit ="marquee_forever"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:scrollHorizontally="true"
+                            style="@style/navdrawer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/separator"
+                            android:textColor="#fafbbd"
+                            app:layout_flexBasisPercent="75%"/>
+                        <TextView
+                            android:id="@+id/nilai"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+
+                            android:textAlignment="textEnd"
+                            style="@style/navdrawer"
+                            app:layout_flexBasisPercent="25%"/>
+
+                    </com.google.android.flexbox.FlexboxLayout>
+
+
+                    <TextView
+                        android:id="@+id/separator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_margin="5dp"
+                        android:layout_centerInParent="true"
+                        android:textColor="#fafbbd" />
+
+                    <ProgressBar
+                        android:id="@+id/progress"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                        android:progressDrawable="@drawable/progress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/separator"
+                        android:layout_centerInParent="true"/>
+
+                    <TextView
+                        android:id="@+id/progress_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        style="@style/EmailPassword"
+                        android:layout_below="@id/separator"
+                        android:layout_centerInParent="true"
+                        android:background="#00000000" />
+
+
+
+
+                </RelativeLayout>
+
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                app:backgroundTint="#00ffffff"
+                app:icon="@drawable/ic_right_arrow"
+                app:iconGravity="end"
+                app:rippleColor="@android:color/transparent"
+                app:layout_flexBasisPercent="10%" />
+
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <Button
+        android:id="@+id/finish"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/login_sign_in_button"
+        style="@style/button"
+        android:text="Claim Reward"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:textAllCaps="false" />
+
+
+</RelativeLayout>

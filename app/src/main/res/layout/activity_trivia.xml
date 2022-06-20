@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dbox"
+        app:flexDirection="column"
+        app:alignItems="center"
+        android:padding="50dp">
+
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="yuhuuuu"
+            style="@style/EmailPassword"
+            android:layout_marginHorizontal="15dp"
+            />
+
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_below="@+id/center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:flexDirection="row">
+
+
+            <Button
+                android:layout_below="@+id/center"
+                android:layout_centerHorizontal="true"
+                android:layout_toLeftOf="@id/center"
+                android:id="@+id/yes"
+                android:text="Yes"
+                android:background="@drawable/login_sign_in_button"
+                style="@style/button"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_flexBasisPercent="50%"
+                android:layout_margin="15dp"/>
+
+            <Button
+                android:layout_below="@id/center"
+                android:layout_toRightOf="@id/center"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/no"
+                android:text="No"
+                android:background="@drawable/login_sign_in_button2"
+                style="@style/button"
+                android:textColor="#fafbbd"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_flexBasisPercent="50%"
+                android:layout_margin="15dp"/>
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_logo_slumber"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_slumber_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.felix.slumber.activity.TriviaActivity"></activity>
+
+        <activity
+            android:name="com.felix.slumber.activity.splashscreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.felix.slumber.activity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.felix.slumber.activity.forget_pass.forget_pass1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.felix.slumber.activity.forget_pass.forget_pass2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.felix.slumber.activity.forget_pass.forget_pass3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.felix.slumber.activity.SignUp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.felix.slumber.activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.felix.slumber.drawer.real.profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.felix.slumber.drawer.real.profile2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.felix.slumber.drawer.real.faqs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.felix.slumber.drawer.real.about_us"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.felix.slumber.drawer.real.store.store_draw"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.felix.slumber.drawer.real.tutorial"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.felix.slumber.drawer.real.support"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.felix.slumber.drawer.real.setting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.felix.slumber.fragment.menu_clock.RingActivity1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.felix.slumber.fragment.menu_clock.RingActivity2"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name="com.felix.slumber.fragment.menu_clock.alarm_receiver1" />
+
+        <service android:name="com.felix.slumber.fragment.menu_clock.alarm_service1" />
+
+        <receiver android:name="com.felix.slumber.fragment.menu_clock.alarm_receiver2" />
+
+        <service android:name="com.felix.slumber.fragment.menu_clock.alarm_service2" />
+    </application>
+
+</manifest>

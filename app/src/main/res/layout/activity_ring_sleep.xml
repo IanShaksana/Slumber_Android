@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_sleep" />
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/wakesleep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_centerInParent="true"
+        android:text="Time for bed!"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/question"
+        style="@style/SignupForget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerInParent="true"
+        android:text="Question"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/answer"
+        style="@style/SignupForget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="50dp"
+        android:background="@null"
+        android:gravity="center_horizontal"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:boxBackgroundMode="none" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/answer"
+        android:layout_marginHorizontal="50dp"
+        android:background="@drawable/login_sign_in_button" />
+
+    <Button
+        android:id="@+id/ans_btn"
+        style="@style/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/answer"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/login_sign_in_button"
+        android:text="Answer"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/dismiss"
+        style="@style/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dp"
+        android:background="@drawable/login_sign_in_button"
+        android:text="Dismiss"
+        android:textAllCaps="false" />
+
+</RelativeLayout>
